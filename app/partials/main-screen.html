@@ -1,0 +1,166 @@
+
+<!--<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">SAVE</h3>
+                </div>
+                <div class="panel-body">
+
+
+                    <button ng-click="$storage.counter = $storage.counter + 1">{{$storage.counter}}</button>
+                </div>
+                <input ng-model="newColor" type="text" />
+                <input ng-model="newFood" type="text" />
+                <button ng-click="concatNewFoods(newColor, newFood)">CLICK</button>
+                <br /><br />
+                <textarea cols="200" rows="10">{{newFoodsString}}</textarea>
+            </div>
+        </div>
+    </div>
+</div>-->
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">FOODS : {{totalFoods}} total</h3>
+                </div>
+                <div class="panel-body">
+                    <input type="text" class="form-control glyphicon glyphicon-search" placeholder="&#57347;" ng-model="query">
+                    <br />
+                    <select class="ddOptions" ng-model="orderProp">
+                        <option value="name">Alphabetical</option>
+                        <option value="color">Color</option>
+                    </select>
+                    <br />
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"></h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="foodList">
+                                <li ng-repeat="food in foods | filter: query | orderBy: orderProp" class="food">
+                                    <span ng-click="eatFood(food.color, food.name)" ng-class="checkAvailable(food.color)"><img src="img/{{food.color}}.png" class="color_thumb" />{{food.name}}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">CALORIE PLAN : {{plan}}</h3>
+                </div>
+                <div class="panel-body">
+                    Change to reset day and/or plan:
+                    <select ng-model="plan" class="ddOptions" ng-change="getDailyPortions()">
+                        <option>1200-1499</option>
+                        <option>1500-1799</option>
+                        <option>1800-2099</option>
+                        <option>2100-2300</option>
+                    </select>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Green (Veggies)</h3>
+                        </div>
+                        <div class="panel-body">
+                            <span class="containers" ng-repeat="portion in portions.green" ng-class="portion.eaten ? 'gre_eaten' : 'gre_available'">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Purple (Fruits)</h3>
+                        </div>
+                        <div class="panel-body">
+                            <span class="containers" ng-repeat="portion in portions.purple" ng-class="portion.eaten ? 'pur_eaten' : 'pur_available'">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Red (Proteins)</h3>
+                        </div>
+                        <div class="panel-body">
+                            <span class="containers" ng-repeat="portion in portions.red" ng-class="portion.eaten ? 'red_eaten' : 'red_available'">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Yellow (Starches / Carbs)</h3>
+                        </div>
+                        <div class="panel-body">
+                            <span class="containers" ng-repeat="portion in portions.yellow" ng-class="portion.eaten ? 'yel_eaten' : 'yel_available'">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Blue (Nuts/Cheeses)</h3>
+                        </div>
+                        <div class="panel-body">
+                            <span class="containers" ng-repeat="portion in portions.blue" ng-class="portion.eaten ? 'blu_eaten' : 'blu_available'">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Orange (Seeds, Dressings, Peanuts)</h3>
+                        </div>
+                        <div class="panel-body">
+                            <span class="containers" ng-repeat="portion in portions.orange" ng-class="portion.eaten ? 'ora_eaten' : 'ora_available'">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Teaspoon (Oils, Seed-Nut Butter)</h3>
+                        </div>
+                        <div class="panel-body">
+                            <span class="containers" ng-repeat="portion in portions.tsp" ng-class="portion.eaten ? 'tsp_eaten' : 'tsp_available'">
+                            </span>
+                        </div>
+                        </
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    EATEN:
+                    <select ng-model="$storage.day" class="ddOptions" style="color:black" ng-change="checkSavedFood()">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select>
+                    <button type="button" class="btn btn-default btn-xs" ng-click="saveDay()">
+                        <span class="glyphicon glyphicon-save"></span> Save day: {{$storage.day}}
+                    </button>
+                </h3>
+            </div>
+            <div class="panel-body">
+                <ul class="foodList">
+                    <li ng-repeat="food in foodsEaten" class="food">
+                        <span ng-click="removeFood(food.color, food.name)"><img src="img/{{food.color}}.png" class="color_thumb" />{{food.name}}</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+

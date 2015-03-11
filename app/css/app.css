@@ -1,0 +1,93 @@
+/* app css stylesheet */
+
+body {
+    padding-top: 20px;
+}
+
+
+.containers {
+    min-height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.color_thumb {
+    height: 14px;
+    width: 14px;
+    margin: 6px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.gre_eaten {
+    background-image: url('../img/xgreen.png');
+}
+
+.gre_available {
+    background-image: url('../img/green.png');
+}
+
+.pur_eaten {
+    background-image: url('../img/xpurple.png');
+}
+
+.pur_available {
+    background-image: url('../img/purple.png');
+}
+
+.red_eaten {
+    background-image: url('../img/xred.png');
+}
+
+.red_available {
+    background-image: url('../img/red.png');
+}
+
+.yel_eaten {
+    background-image: url('../img/xyellow.png');
+}
+
+.yel_available {
+    background-image: url('../img/yellow.png');
+}
+
+.blu_eaten {
+    background-image: url('../img/xblue.png');
+}
+
+.blu_available {
+    background-image: url('../img/blue.png');
+}
+
+.ora_eaten {
+    background-image: url('../img/xorange.png');
+}
+
+.ora_available {
+    background-image: url('../img/orange.png');
+}
+
+.tsp_eaten {
+    background-image: url('../img/xtsp.png');
+}
+
+.tsp_available {
+    background-image: url('../img/tsp.png');
+}
+
+.foodList li {
+    list-style: none;
+}
+
+.ddOptions {
+    margin: 6px;
+}
+
+.food:hover {
+    cursor: pointer;
+    background-color: #F9FF8C;
+}

@@ -1,0 +1,260 @@
+[
+    {
+        "color": "green",
+        "name": "Kale, cooked or raw"
+    },
+    {
+        "color": "green",
+        "name": "Collard Greens, cooked or raw"
+    },
+    {
+        "color": "green",
+        "name": "Spinach, cooked or raw"
+    },
+    {
+        "color": "green",
+        "name": "Brussels sprouts, chopped or 5 medium"
+    },
+    {
+        "color": "green",
+        "name": "Broccoli, chopped"
+    },
+    {
+        "color": "green",
+        "name": "Asparagus, 10 large spears"
+    },
+    {
+        "color": "purple",
+        "name": "Raspberries"
+    },
+    {
+        "color": "purple",
+        "name": "Blueberries"
+    },
+    {
+        "color": "purple",
+        "name": "Blackberries"
+    },
+    {
+        "color": "purple",
+        "name": "Strawberries"
+    },
+    {
+        "color": "purple",
+        "name": "Watermelon, diced"
+    },
+    {
+        "color": "purple",
+        "name": "Canaloupe, diced"
+    },
+    {
+        "color": "red",
+        "name": "Sardines (fresh or canned in water), 7 medium"
+    },
+    {
+        "color": "red",
+        "name": "Boneless, skinless chicken or turkey breast, cooked, diced"
+    },
+    {
+        "color": "red",
+        "name": "Lean ground chicken or turkey ( > (or equaul) 93% lean), cooked"
+    },
+    {
+        "color": "yellow",
+        "name": "Yams"
+    },
+    {
+        "color": "yellow",
+        "name": "Sweet Potato"
+    },
+    {
+        "color": "yellow",
+        "name": "Quinoa, cooked"
+    },
+    {
+        "color": "blue",
+        "name": "Avacado, mashed or 1/4 medium"
+    },
+    {
+        "color": "blue",
+        "name": "12 almonds, whole, raw"
+    },
+    {
+        "color": "blue",
+        "name": "8 cashews, whole, raw"
+    },
+    {
+        "color": "orange",
+        "name": "Pumpkin seeds, raw"
+    },
+    {
+        "color": "orange",
+        "name": "Sunflower seeds, raw"
+    },
+    {
+        "color": "orange",
+        "name": "Sesame seeds, raw"
+    },
+    {
+        "color": "tsp",
+        "name": "Extra-virgin olive oil"
+    },
+    {
+        "color": "tsp",
+        "name": "Extra-virgin coconut oil"
+    },
+    {
+        "color": "tsp",
+        "name": "Flaxseed oil"
+    },
+    {
+        "color": "tsp",
+        "name": "Walnut oil"
+    },
+    {
+        "color": "green",
+        "name": "Beets, 2 medium"
+    },
+    {
+        "color": "green",
+        "name": "Tomatoes, chopped, cherry, or 2 medium"
+    },
+    {
+        "color": "green",
+        "name": "Squash (summer), sliced"
+    },
+    {
+        "color": "green",
+        "name": "Winter squash (all varieties), cubed"
+    },
+    {
+        "color": "green",
+        "name": "String Beans"
+    },
+    {
+        "color": "green",
+        "name": "Peppers, sweet, sliced"
+    },
+    {
+        "color": "green",
+        "name": "Carrots, sliced or 10 medium baby"
+    },
+    {
+        "color": "green",
+        "name": "Cauliflower, chopped"
+    },
+    {
+        "color": "green",
+        "name": "Artichokes, 1/2 large"
+    },
+    {
+        "color": "green",
+        "name": "Eggplant, 1/2 medium"
+    },
+    {
+        "color": "green",
+        "name": "Okra"
+    },
+    {
+        "color": "green",
+        "name": "Jicama, sliced"
+    },
+
+    { "color": "green", "name": "Snow Peas" },
+    { "color": "green", "name": "Cabbage, chopped" },
+    { "color": "green", "name": "Cucumbers" },
+    { "color": "green", "name": "Celery" },
+    { "color": "green", "name": "Lettuce (NOT iceberg)" },
+    { "color": "green", "name": "Mushrooms" },
+    { "color": "green", "name": "Radishes" },
+    { "color": "green", "name": "Onions, chopped" },
+    { "color": "green", "name": "Sprouts" },
+    { "color": "purple", "name": "Orange, divided into sections or 1 medium" },
+    { "color": "purple", "name": "Tangerine, 2 small" },
+    { "color": "purple", "name": "Apple, sliced or 1 small" },
+    { "color": "purple", "name": "Apricots, 4 small" },
+    { "color": "purple", "name": "Grapefruit, divided into sections or 1/2 large" },
+    { "color": "purple", "name": "Cherries" },
+    { "color": "purple", "name": "Grapes" },
+    { "color": "purple", "name": "Kiwifruit, 2 medium" },
+    { "color": "purple", "name": "Mango, sliced" },
+    { "color": "purple", "name": "Peach, slided or 1 large" },
+    { "color": "purple", "name": "Nectarine, sliced or 1 large" },
+    { "color": "purple", "name": "Pear, sliced or 1 large" },
+    { "color": "purple", "name": "Pineapple, diced" },
+    { "color": "purple", "name": "Banana, 1/2 large" },
+    { "color": "purple", "name": "Papaya, diced" },
+    { "color": "purple", "name": "Figs, 2 small" },
+    { "color": "purple", "name": "Honeydew melon, diced" },
+    { "color": "purple", "name": "Salsa, pico de gallo" },
+    { "color": "purple", "name": "Tomato sauce, plain" },
+    { "color": "red", "name": "Fish, fresh water (catfish, tilapia, trout), cooked, flaked" },
+    { "color": "red", "name": "Fish, cold water, wild caught (cod, salmon, halibut, tuna), cooked, flaked" },
+    { "color": "red", "name": "Game: buffalo (bison, ostrich, venison), cooked, diced" },
+    { "color": "red", "name": "Game: lean ground (>= 95% lean), cooked, diced" },
+    { "color": "red", "name": "Eggs, 2 large" },
+    { "color": "red", "name": "Egg whites, 8 large" },
+    { "color": "red", "name": "Greek yogurt, plain, 1%" },
+    { "color": "red", "name": "Yogurt, plain, 2%" },
+    { "color": "red", "name": "Shellfish (shrimp, crab, lobster), cooked" },
+    { "color": "red", "name": "Clams, canned, drained" },
+    { "color": "red", "name": "red meat, extra-lean, cooked, diced" },
+    { "color": "red", "name": "Lean ground red meat ( >= 95% lean), cooked" },
+    { "color": "red", "name": "Shakeology, 1 scoop" },
+    { "color": "red", "name": "Tempeh" },
+    { "color": "red", "name": "Tofu, firm" },
+    { "color": "red", "name": "Pork tenderloin, dirced, cooked" },
+    { "color": "red", "name": "Tuna, canned light in water, drained" },
+    { "color": "red", "name": "Turkey slices, low-sodium, fat-free, 6 slices" },
+    { "color": "red", "name": "Ham slices, low-sodium, fat-free, 6 slices" },
+    { "color": "red", "name": "Ricotta cheese, light" },
+    { "color": "red", "name": "Cottage cheese, 2%" },
+    { "color": "red", "name": "Protein powder (whey, help, rice, pea), 1 1/2 scoops (approx. 42g depending on variety)" },
+    { "color": "red", "name": "Veggie burger, 1 medium patty" },
+    { "color": "red", "name": "Turkey bacon (reduced fat), 4 slices" },
+    { "color": "yellow", "name": "Beans (kidney, black, garbonzo, white, lima, etc.), cooked, drained" },
+    { "color": "yellow", "name": "Lentils, cooked, drained" },
+    { "color": "yellow", "name": "Edamame, shelled" },
+    { "color": "yellow", "name": "Peas" },
+    { "color": "yellow", "name": "Refried beans, nonfat" },
+    { "color": "yellow", "name": "Brown rice, cooked" },
+    { "color": "yellow", "name": "Wild rice, cooked" },
+    { "color": "yellow", "name": "Potato, mashed or 1/2 medium" },
+    { "color": "yellow", "name": "Corn on the cob, 1 ear" },
+    { "color": "yellow", "name": "Bread, whole-grain, 1 slice" },
+    { "color": "tsp", "name": "Nut butters (peanut, almond, cashew, etc.)" },
+    { "color": "yellow", "name": "Fresh fruit juices, 8 fl oz ( ONLY 3 times a week)" },
+    { "color": "yellow", "name": "Amaranth, cooked" },
+    { "color": "yellow", "name": "Millet, cooked" },
+    { "color": "yellow", "name": "Buckwheat, cooked" },
+    { "color": "yellow", "name": "Barley, cooked" },
+    { "color": "yellow", "name": "Bulgur, cooked" },
+    { "color": "yellow", "name": "Oatmeal, steel-cut, cooked" },
+    { "color": "yellow", "name": "Oatmeal, rolled, cooked" },
+    { "color": "yellow", "name": "Pasta, whole-grain, cooked" },
+    { "color": "yellow", "name": "Couscous, whole wheat, cooked" },
+    { "color": "yellow", "name": "Crackers, whole-grain, 8 small crackers" },
+    { "color": "yellow", "name": "Cereal, whole-grain, low sugar" },
+    { "color": "yellow", "name": "Pita Bread, whole wheat, 1 small (4-inch)" },
+    { "color": "yellow", "name": "Waffles, whole-grain, 1 waffle" },
+    { "color": "yellow", "name": "Pancakes, whole-grain, 1 small (4-inch)" },
+    { "color": "yellow", "name": "English muffin, whole-grain, 1/2 muffin" },
+    { "color": "yellow", "name": "Bagel, whole-grain, 1/2 small ( 3inch)" },
+    { "color": "yellow", "name": "Tortilla, whole wheat, 1 small ( 6 inch)" },
+    { "color": "yellow", "name": "Tortilla, corn, 2 small ( 6-inch)" },
+    { "color": "blue", "name": "14 peanuts, whole, raw" },
+    { "color": "blue", "name": "20 pistachios, whole, raw" },
+    { "color": "blue", "name": "10 pecan halves, raw" },
+    { "color": "blue", "name": "8 walnut halves, raw" },
+    { "color": "blue", "name": "Hummus" },
+    { "color": "blue", "name": "Coconut milk, canned" },
+    { "color": "blue", "name": "Feta cheese, crumbled" },
+    { "color": "blue", "name": "Goat cheese, crumbled" },
+    { "color": "blue", "name": "Mozzarella (low-moisture), shredded" },
+    { "color": "blue", "name": "Cheddar, shredded" },
+    { "color": "blue", "name": "Provolone, shredded" },
+    { "color": "blue", "name": "Monterey Jack, shredded" },
+    { "color": "blue", "name": "Parmesan, shredded" }
+
+  
+]
