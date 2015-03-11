@@ -5,7 +5,7 @@ Currently contains a lot of junk from the angular phone tutorial.  It also needs
 
 This app will save each day to local storage and allow the user to review and edit the days of food.
 
-***Would like to see features added such as exporting.  Also need to add 21 days to the dropdown.***
+***Would like to add an export feature.***
 
 See it in action at  ToddVance.com/21day
 
